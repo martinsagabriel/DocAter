@@ -1,3 +1,5 @@
 PyPDF2
 requests
 python-dotenv
+ollama
+chromadb==0.3.22

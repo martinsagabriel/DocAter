@@ -9,3 +9,6 @@ files/
 
 # Ignorar pastas __pycache__
 __pycache__/
+
+# Ignora venv
+venv/
