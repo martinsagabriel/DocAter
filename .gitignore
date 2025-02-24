@@ -1,0 +1,11 @@
+# Ignorar a pasta 'files'
+files/
+
+# Ignorar todos os arquivos com extensão .pdf
+*.pdf
+
+# Ignorar arquivos .env
+.env
+
+# Ignorar pastas __pycache__
+__pycache__/
