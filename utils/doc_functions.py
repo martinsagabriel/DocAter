@@ -2,6 +2,9 @@ import sys
 import os
 from PyPDF2 import PdfReader
 
+CHUNK_SIZE = 1000
+OFFSET = 200
+
 def get_document_path():
     """Get PDF document path from command line arguments.
     
@@ -56,3 +59,9 @@ def split_document(document_text, offset=100, chunk_size=1000):
     except Exception as e:
         print(f"Erro ao dividir o documento: {e}")
         sys.exit(1)
+        
+
+if __name__ == "__main__":
+    document_path = get_document_path()
+    document = (document_to_text(document_path))
+    document_chunks = split_document(document, OFFSET, CHUNK_SIZE)

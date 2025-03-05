@@ -1,5 +1,12 @@
-PyPDF2
 requests
 python-dotenv
 ollama
-chromadb==0.3.22
+chromadb
+pydantic
+pandas
+langchain-community
+langchain-core
+langchain-ollama
+torch
+streamlit
+pypdf

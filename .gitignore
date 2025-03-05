@@ -1,6 +1,9 @@
 # Ignorar a pasta 'files'
 files/
 
+# Ignora vectordb
+chroma_db/
+
 # Ignorar todos os arquivos com extensão .pdf
 *.pdf
 
